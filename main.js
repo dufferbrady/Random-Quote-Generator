@@ -12,15 +12,15 @@ $(document).ready(function() {
 			success: function(response) {
 				$('#quote').text(response.quoteText);
 				if (response.quoteAuthor) {
-					$('#author').text(response.quoteAuthor);
+					$('#author').text('- ' + response.quoteAuthor);
 				}	else {
-					$('#author').text('Unknown');
+					$('#author').text('- Unknown');
 				}
 			}
 		});
 	};
 	getNewQuote();
-	
+
 	$('#submit').on('click', function() {
 		getNewQuote();
 	});
