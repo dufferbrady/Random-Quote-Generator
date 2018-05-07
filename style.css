@@ -1,7 +1,7 @@
 body {
 	height: 100%;
 	width: 100%;
-	background: linear-gradient(to right, #a3dcff, #aedfff, #b9e3ff, #c4e6fe, #ceeafe) no-repeat center center fixed;
+	background: linear-gradient(to right, #79c1fe, #9ad0fe, #badefe, #d8edfe, #f6fbff) no-repeat center center fixed;
 	background-size: cover;
 }
 
@@ -12,10 +12,10 @@ body {
 	margin: 7.5% 5% 0 5%;
 }*/
 
-h1	{
+#header	{
 	padding-top: 20px;
 	text-align: center;
-	color: black;
+	color: #3D5056;
 }
 
 #quote {
@@ -61,4 +61,10 @@ h1	{
 
 .fa-twitter {
 	color: #FFFFFF;
+	font-size: 1.25em;
+	margin-left: 7.5px;
+}
+
+.fa-quote-right {
+	margin-left: 7.5px;
 }
